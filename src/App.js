@@ -15,7 +15,9 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <About />
+      <Router>
+        <Route path="/" component={About} />
+      </Router>
     </div>
   );
 }
