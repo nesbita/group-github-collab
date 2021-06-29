@@ -1,4 +1,13 @@
-import logo from './logo.svg';
+// router
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom'
+
+// components
+import About from './About.js'
+
+// styling
 import './App.css';
 
 function App() {
