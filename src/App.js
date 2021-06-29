@@ -1,10 +1,19 @@
+// router
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom'
+
+// components
+import About from './About.js'
+
+// styling
 import './App.css';
 import About from './About'
 
 const App = () => {
   return (
-    <div>
-      <h1>Header goes here.</h1>
+    <div className="App">
     </div>
   );
 }
