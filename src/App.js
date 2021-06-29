@@ -9,8 +9,9 @@ import About from './About.js'
 
 // styling
 import './App.css';
+import About from './About'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
     </div>
