@@ -5,15 +5,17 @@ import {
 } from 'react-router-dom'
 
 // components
-import About from './About.js'
+import About from './About'
+import Header from './Header'
 
 // styling
 import './App.css';
-import About from './About'
 
 const App = () => {
   return (
     <div className="App">
+      <Header />
+      <About />
     </div>
   );
 }
