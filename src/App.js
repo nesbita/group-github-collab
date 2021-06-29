@@ -9,7 +9,7 @@ import About from './About.js'
 
 // styling
 import './App.css';
-import About from './About'
+
 
 const App = () => {
   return (
